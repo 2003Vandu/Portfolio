@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vandesh Portfolio | Website</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+            background-color: rgb(28, 28, 49);
+        }
+
+        .right {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        nav .left ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.9s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(223, 227, 138);
+        }
+
+        .firstsection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .firstsection > div {
+            flex: 1 1 300px;
+            max-width: 500px;
+            margin: 20px;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .leftsection .buttons {
+            margin-top: 20px;
+        }
+
+        .leftsection .but {
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 16px;
+            color: rgb(134, 216, 248);
+            background-color: rgb(28, 28, 49);
+            border: none;
+        }
+
+        .leftsection .but:hover {
+            cursor: pointer;
+            color: blanchedalmond;
+        }
+
+        .rightsection img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .purple {
+            color: rgb(142, 104, 178);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(142, 104, 178);
+        }
+
+        .secondsection {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        main hr {
+            border: none;
+            background-color: #5600ff;
+            height: 1.2px;
+            margin: 40px auto;
+            width: 80%;
+        }
+
+        .secondsection .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .secondsection .vertical {
+            position: relative;
+            width: 150px;
+            text-align: center;
+        }
+
+        .image-top {
+            width: 60px;
+            height: 60px;
+        }
+
+        .vertical-titel {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .vertical-desc {
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+        footer {
+            background-color: rgb(28, 28, 49);
+            padding: 20px;
+            color: white;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .footer ul {
+            padding: 0;
+        }
+
+        .footer ul li {
+            list-style: none;
+            margin: 5px 0;
+        }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .footer ul li a:hover {
+            color: rgb(236, 248, 136);
+        }
+
+        .footer-text-copyright {
+            text-align: center;
+            margin-top: 10px;
+            color: gray;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .leftsection {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .leftsection {
+                font-size: 1.5rem;
+            }
+
+            .leftsection .but {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+
+            nav .left ul {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .right {
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">Vandesh's Portfolio</div>
+            <div class="left">
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">Vandesh</span>
+                <div>I am a Passionate Web Developer</div>
+                <div class="buttons">
+                    <button class="but">Download Resume</button>
+                    <button class="but">Visit Github</button>
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="Developer Illustration">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png" alt="HTML logo">
+                    <div class="vertical-titel">HTML Developer (2023-2024)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus quasi eos eligendi.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="Developer logo">
+                    <div class="vertical-titel">Frontend Developer (2023-2024)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus quasi eos eligendi.</div>
+                </div>
+                <!-- More vertical blocks if needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vandesh Developer Portfolio</h3>
+            </div>
+            <div class="second-footer">
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text-copyright">
+            Vandesh-Portfolio | All rights reserved ®©
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(24, 23, 23);
+        }
+
+        .container {
+            background-color: rgb(37, 35, 35);
+            height: 50vh;
+            width: 40%;
+            margin: 100px;
+            border-radius: 23px
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            color: azure;
+            min-height: 100vh;
+        }
+
+        .form {
+            margin: 11px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            margin-top: 27px;
+
+        }
+
+        .form .name {
+            width: 100%;
+            padding: 4px;
+            margin: 15px;
+            color: azure;
+            background-color: rgba(49, 45, 43, 0.968);
+            border-radius: 16px;
+        }
+
+        .form .mail {
+            width: 100%;
+            padding: 4px;
+            margin: 15px;
+            color: azure;
+            background-color: rgba(49, 45, 43, 0.968);
+            border-radius: 16px;
+        }
+
+        .form .form-input {
+            width: 100%;
+            padding: 4px;
+            margin: 15px;
+            color: azure;
+            background-color: rgba(49, 45, 43, 0.968);
+            border-radius: 16px;
+        }
+
+        .form .but {
+            width: 100%;
+            padding: 8px;
+            margin: 12px;
+            font-size: 1rem;
+            color: azure;
+            background-color: rgba(49, 45, 43, 0.968);
+            border-radius: 21px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        
+
+        .form .but:hover {
+            color: bisque;
+            font-size: medium;
+        }
+
+        .form .mail:hover {
+            color: bisque;
+            font-size: medium;
+        }
+
+        .form .name:hover {
+            color: bisque;
+            font-size: medium;
+        }
+
+        .form .form-input:hover {
+            color: bisque;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+
+            <div class="form">
+                Contact form
+                <input name="name" type="text" class="name" type="text" value="" placeholder="Full">
+                <input name="mail" type="text" class="mail " type="text" value="" placeholder="mail">
+                <textarea name="message" class="form-input" placeholder="Your Message" required=""
+                    data-form-input=""></textarea>
+                <button name="but" class="but">send massage</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
