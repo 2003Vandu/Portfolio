@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(28, 28, 49); */
+  background-color: rgb(35, 51, 153);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* .navbar {
+  background: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+} */
+
+/* .navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+} */
+
+/* .navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+} */
+
+.navbar a.active {
+  color: #facc15;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+  color: #facc15;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(21, 21, 114);
+  display: inline-block;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  background:rgb(26, 26, 93);
+  color: #fbc900;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.timeline-item {
+  border-left: 3px solid rgb(90, 225, 193);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 0.2rem;
+  width: 12px;
+  height: 12px;
+  background: rgb(54, 54, 138);
+  border-radius: 50%;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.title>a{
+            text-decoration: none;
+            color: #facc15;
+        }
+
+.year {
+  display: inline-block;
+  margin: 0.2rem 0;
+  background-color: #1a1a1a;
+  color: lch(85.72% 83.05 89.37);
+  padding: 0.2rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 3px;
+}
+
+.skills h2 {
+  margin-top: 3rem;
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.progress-bar {
+  background: #333;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar div {
+  height: 100%;
+  background: rgb(69, 167, 184);
+}

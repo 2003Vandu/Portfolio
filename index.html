@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vandesh - Portfolio</title>
+  <link rel="stylesheet" href="PORTFOLIO/src/play.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="right">
+        <a href="PORTFOLIO/index.html"><img src="PORTFOLIO/assets/image1.jpg" alt="Profile Image" /></a>
+        <p>Vandesh's Portfolio</p>
+      </div>
+      <div class="left">
+        <ul>
+          <li><a href="PORTFOLIO/src/About.html">About</a></li>
+          <li><a href="PORTFOLIO/src/resume.html">Resume</a></li>
+          <li><a href="PORTFOLIO/src/contact.html">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, my name is <span class="skyblue">Vandesh</span>
+        <div>I am a Passionate Web Developer</div>
+        <div class="skyblue">" Discipline from the Army, logic in code, heart in 
+          poetry—Full Stack Developer on a creative mode. "</div>
+        <div class="buttons">
+
+          <button class="but">Download Resume</button>
+
+          <a id="decor" href="https://github.com/2003Vandu">
+          <button class="but">Visit GitHub</button>
+          </a>
+
+          <a id="decor" href="https://www.linkedin.com/in/vandesh-ghodke-b832b730b/">
+          <button class="but">Linkdin</button>
+          </a>
+          <p class="contact">
+            <span class="skyblue">Email:</span>vandeshghodke2003@gmail.com
+           <p class="contact">
+            <span class="skyblue">Contact:</span> +91 8862037580
+           </p>
+            
+          </p>
+          
+        </div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <!-- <img src="/PORTFOLIO/assets/bandubg.png" alt="Banner Image" />
+          -->
+        <img src="PORTFOLIO/assets/image1.jpg" alt="Profile Image" />
+        
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="secondsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="PORTFOLIO/assets/htmllogo.png" alt="" />
+          <div class="vertical-title">HTML Developer (2023-2024)</div>
+          <div class="vertical-desc">Built static websites using semantic HTML5 and accessibility best practices.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="PORTFOLIO/assets/developer.png" alt="" />
+          <div class="vertical-title">CSS Developer (Present)</div>
+          <div class="vertical-desc">Styled responsive layouts with Flexbox, Grid, and animations.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="PORTFOLIO/assets/developer.png" alt="" />
+          <div class="vertical-title">JavaScript Developer</div>
+          <div class="vertical-desc">Developed interactive UIs with JS and DOM manipulation.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="PORTFOLIO/assets/developer.png" alt="" />
+          <div class="vertical-title">Core Java</div>
+          <div class="vertical-desc">Strong foundation in Java OOP, logic, and algorithms.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Vandesh Developer Portfolio</h3>
+      </div>
+      <div class="second-footer">
+        <ul>
+          <li><a href="PORTFOLIO/src/About.html">About</a></li>
+          <li><a href="PORTFOLIO/src/resume.html">Resume</a></li>
+          <li><a href="PORTFOLIO/src/contact.html">Contact me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-text-copyright">
+      © 2025 Vandesh - All rights reserved
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
