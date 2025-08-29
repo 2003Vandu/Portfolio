@@ -8,7 +8,7 @@ body {
     /* background-color: rgb(0, 0, 33); */
     background-color: rgb(35, 51, 153);
     font-family: Arial, sans-serif;
-    background-image: url("assets/bg.png");
+    background-image: url("PORTFOLIO/assets/bg.png");
     background-position: center center;
     background-position: no-repeat;
     background-size: cover;
@@ -154,4 +154,5 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.1); /* Lighter border */
 
 }
+
 
